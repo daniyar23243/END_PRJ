@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+   background-color: aqua;
+   height: 5.5rem;
+   width: 100%;
+   position: absolute;
+   padding: 1rem;
+}
+
+.navbar-container{
+    top: 1rem;
+    position: absolute;
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center; 
+    align-items: start;   
+}
+
+.logo{
+    max-width: 5rem;
+    height: 45%;
+    width: 25%;
+    background-color: aliceblue;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.navbarItems{
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+}
+
+
